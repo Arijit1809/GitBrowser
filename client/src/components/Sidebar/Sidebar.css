@@ -28,3 +28,6 @@
 .repo-info h3{
 	margin: 0;
 }
+.repo-info:hover{
+	cursor: pointer;
+}
