@@ -1,0 +1,29 @@
+.branch-item{
+	padding: 20px;
+	background-color: rgba(223, 223, 223, 0.57);
+	/* border-radius: 10px; */
+	/* margin: 10px 0px; */
+	font-size: larger;
+	border: 1px solid black;
+}
+.branch-item span:first-child{
+	font-weight: bold;
+}
+.error{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: larger;
+	font-weight: 800;
+	color: red;
+	height: 100%;
+}
+.loading{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: larger;
+	font-weight: 800;
+	color: rgb(0, 153, 255);
+	height: 100%;
+}

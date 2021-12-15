@@ -1,0 +1,30 @@
+.sidebar-container{
+	width: 25%;
+	height: 100vh;
+	border: 1px solid black;
+}
+.sidebar-heading{
+	border: 1px solid black;
+	display: flex;
+	align-items: center;
+	margin:0;
+	height: 10vh;
+	padding: 10px;
+}
+.sidebar-list{
+	height: 90vh;
+	overflow: auto;
+}
+.repo-info{
+	border: 1px solid black;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-direction: column;
+	background-color: rgb(223 223 223 / 57%);
+	color: black;
+	padding: 10px;
+}
+.repo-info h3{
+	margin: 0;
+}

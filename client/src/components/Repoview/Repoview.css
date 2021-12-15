@@ -1,0 +1,86 @@
+.repoview-container{
+	width: 75%;
+	height: 100vh;
+}
+.repoview-repo-info{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	height: 10vh;
+	border: 1px solid black;
+}
+.delete-repo{
+	margin: 20px;
+    padding: 10px 20px;
+	border: none;
+	border: 1px solid black;
+	font-size: larger;
+	font-weight: 500;
+	background-color: red
+}
+.delete-repo:hover{
+	cursor: pointer;
+	background-color: rgb(255, 111, 111);
+}
+.tab-select{
+	display: flex;
+	flex-direction: row;
+	height: 50px;
+	border: 1px solid black;
+}
+.tab-select div{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	font-size: larger;
+	width: 30%;
+	background-color: rgba(0, 174, 255, 0.522);
+	border: 1px solid black;
+	text-align: center;
+}
+.tab-select div:hover{
+	cursor: pointer;
+	background-color: rgba(0, 174, 255, 0.878);;
+}
+.branch-issues-container{
+	height: calc(90vh - 50px);
+	overflow: auto;
+}
+.select-repo-error{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 60px;
+	text-align: center;
+	font-weight: 800;
+	color: rgb(0, 123, 255);
+	height: 100%;
+	width: 75%;
+}
+.exist-repo-error{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 60px;
+	text-align: center;
+	font-weight: 800;
+	color: rgb(255, 0, 0);
+	height: 100%;
+	width: 75%;
+}
+.exist-repo-error button{
+	margin: 20px;
+    padding: 10px 20px;
+	border: none;
+	border: 1px solid black;
+	font-size: 30px;
+	font-weight: 500;
+	background-color: rgba(255, 0, 0, 0.549)
+}
+.exist-repo-error button:hover{
+	cursor: pointer;
+	background-color: red;
+}
